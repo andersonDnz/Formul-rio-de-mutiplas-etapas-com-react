@@ -23,7 +23,7 @@ const Reviewform = ( { data, updateFieldHandler } ) => {
                          checked ={data.review === "unsatisfied"}
                          onChange={(e)=> updateFieldHandler ("review", e.target.value)} 
                         />
-                        <BsFillEmojiFrownFill/>
+                        <BsFillEmojiFrownFill />
                        <p>Insatisfeito</p> 
                     </label>
                     <label className="radio-container">
